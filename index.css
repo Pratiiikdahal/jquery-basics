@@ -1,0 +1,30 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+}
+.new{
+    background:blue;
+    height:100vh;
+    width:30%;
+    position:relative;
+    left:-530px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.darkmode{
+    background:black;
+    color:white;
+}
+.left{
+    left:'0px';
+}
+
+.drag{
+    width:300px;
+    height:200px;
+    background-color: red;
+}
+
